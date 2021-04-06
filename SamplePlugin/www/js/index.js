@@ -43,6 +43,7 @@ function onDeviceReady() {
         cordova.exec(success, error, "NewPlugin", "coolMethod", ["init"]);
     }, 1000);
 
+    //on button press, pass the user's input to the native code for echoing
     document.getElementById("submitInput").addEventListener("click", function () {
         let inputText = document.getElementById("inputArea").value;
         document.getElementById("enteredMessage").innerHTML = inputText;
