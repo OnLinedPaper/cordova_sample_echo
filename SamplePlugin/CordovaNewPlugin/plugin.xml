@@ -9,6 +9,11 @@
         <js-module name="CordovaNewPluginProxy" src="src/windows/CordovaNewPluginProxy.js">
             <runs target="" />
         </js-module>
+        <!-- 
+            cpp files compile their implementations separately from their definitions,
+            unlike C# and .NET - adding an implementation path helps the code find
+            the missing pieces.
+        -->
         <framework src="src/windows/cpp-cli/EchoRuntimeComponent.winmd" arch="x86" custom="true" implementation="src/windows/cpp-cli/EchoRuntimeComponent.dll"/>
     </platform>
 </plugin>
