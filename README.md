@@ -22,4 +22,4 @@ Once the code is compiled and the plugin is added, launch the application with `
 
 ### Usage
 
-![Example of the echo function.](docs/Capture.png?raw=true "")
+![Example of the echo function.](docs/Capture.PNG?raw=true "")
