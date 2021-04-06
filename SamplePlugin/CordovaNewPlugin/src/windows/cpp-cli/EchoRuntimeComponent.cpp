@@ -16,6 +16,3 @@ Platform::String^ EchoPluginRT::Echo(Platform::String^ input)
     }
 }
 
-//compile with  cl /ZW /LD EchoRuntimeComponent.cpp
-//prepare with  cordova plugin remove cordova-new-plaugin; cordova plugin add .\CordovaNewPlugin\
-//execute with  cordova run windows --archs=x86 --verbose
