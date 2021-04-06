@@ -14,7 +14,7 @@ As likely expected, this code accepts user's input, passes it though a callback 
 
 Before deploying the Cordova app, the windows code must be compiled. Binaries are included in this repository for users who do not want to install the toolchain required to compile the runtime component.
 <br>
-For those who wish to compile the runtime components themselves, first install Visual Studio 2017, then install C++/CLI support. The code is compiled from a developer prompt with `cl /ZW /LD EchoRuntimeComponent.cpp`.
+For those who wish to compile the runtime component themselves, first install Visual Studio 2017, then install C++/CLI support. The code is compiled from a developer prompt with `cl /ZW /LD EchoRuntimeComponent.cpp`.
 
 Once the code is compiled and the plugin is added, launch the application with `cordova run windows --archs=x86`
 
