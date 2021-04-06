@@ -1,12 +1,12 @@
 # cordova_sample_echo
 
-An implementation of the echo plugin outlined on [Cordova's official webpage.](https://cordova.apache.org/docs/en/10.x/guide/platforms/windows/plugin.html) 
+An implementation of the echo plugin outlined on [Cordova's official webpage](https://cordova.apache.org/docs/en/10.x/guide/platforms/windows/plugin.html), built with native C++/CLI. 
 
 <br>
 
 ### Overview
 
-As likely expected, this code accepts user's input, passes it though a callback and into native CPP/CLI code, and then returns it to the frontend JavaScript. The code sends a message automatically ("init") one second after startup, and can then echo any user-generated message.
+As likely expected, this code accepts user's input, passes it though a callback and into native C++/CLI code, and then returns it to the frontend JavaScript. The code sends a message automatically ("init") one second after startup, and can then echo any user-generated message.
 
 <br>
 
