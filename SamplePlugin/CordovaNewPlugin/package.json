@@ -1,0 +1,17 @@
+{
+  "name": "cordova-new-plugin",
+  "version": "1.0.0",
+  "description": "a sample windows plugin - alerts success and returns a string containing the argument.",
+  "cordova": {
+    "id": "cordova-new-plugin",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "Nick Reed",
+  "license": "ISC"
+}

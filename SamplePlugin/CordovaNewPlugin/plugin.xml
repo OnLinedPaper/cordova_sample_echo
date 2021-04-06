@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-new-plugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaNewPlugin</name>
+    <js-module name="CordovaNewPlugin" src="www/CordovaNewPlugin.js">
+        <clobbers target="cordova.plugins.CordovaNewPlugin" />
+    </js-module>
+    
+    <platform name="windows">
+        <js-module name="CordovaNewPluginProxy" src="src/windows/CordovaNewPluginProxy.js">
+            <runs target="" />
+        </js-module>
+        <framework src="src/windows/cpp-cli/EchoRuntimeComponent.winmd" arch="x86" custom="true" implementation="src/windows/cpp-cli/EchoRuntimeComponent.dll"/>
+    </platform>
+</plugin>
